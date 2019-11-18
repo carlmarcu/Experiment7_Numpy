@@ -1,5 +1,0 @@
-import numpy as np
-x=np.ndarray(shape=(5,5), dtype=float)
-xm=(x.mean())
-xsd=(np.std(x))
-z=((x-xm)/xsd)
